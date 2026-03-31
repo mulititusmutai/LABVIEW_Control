@@ -1,4 +1,10 @@
 # LABVIEW_Control
 LabView-enabled control of KeFIRE (Kenya's First Rocket Engine) under NAKUJA Project.
 
-1. Labview Essentials
+## 1. Labview Essentials
+Compared to other ways of controlling a system, Labview is very direct and operates at a much more user-friendly level, while allowing a lot of benefits; but knowing how to program fundamentally allows the user to have a very easy time transferring knowledge of how data flows through functions, data type conversions, from input to output with the different intermediary levels.
+In Labview, variables are implemented through control elements like sliders, data entry boxes, dials, etc. Functions are depicted by function boxes where the user provides inputs through data lines and the function box outputs processed data through data lines. Data at different states is represented by the differently colored lines, distinguished by differing data types e.g. Orange-Float, Pink-String, Blue-Integer etc.
+These are the 3 main building blocks of Labview, present in any project.
+Helper structures such as While/For loops and Case statements are implemented as a box where everything (inputs, data lines, functions, outputs) run the same way they would in any other programing technique. Initial inputs may be fed into the structure from outside and the same can be done for final data that can be passed out of the structure after it runs its course.
+With those core principles, powerful Labview programs can be built to control complex systems in real time, remotely and in a visually simple environment that is condusive for rapid iteration and modification.
+One of the most distinguishing capabilities of Labview is **implicit multi-threading**. This is that every program in place runs *simultaneously* without need for additional clarification or deep definition of the workflow. each stage simply awaits that all data it requires is made available before running. It puts it head and shoulders above the likes of C++ **MCU** programs that rely on single thread operations, crucial for large and complex control and data visualization systems.
