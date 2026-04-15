@@ -1,5 +1,5 @@
 # LABVIEW_Control
-LabView-enabled control of KeFIRE (Kenya's First Rocket Engine) under NAKUJA Project.
+LabView-enabled control.
 
 ## 1. Labview Essentials
 Compared to other ways of controlling a system, Labview is very direct and operates at a much more user-friendly level, while allowing a lot of benefits; but knowing how to program fundamentally allows the user to have a very easy time transferring knowledge of how data flows through functions, data type conversions, from input to output with the different intermediary levels.
