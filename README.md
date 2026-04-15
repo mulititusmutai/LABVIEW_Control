@@ -9,7 +9,7 @@ Helper structures such as While/For loops and Case statements are implemented as
 With those core principles, powerful Labview programs can be built to control complex systems in real time, remotely and in a visually simple environment that is condusive for rapid iteration and modification.
 One of the most distinguishing capabilities of Labview is **implicit multi-threading**. This is that every program in place runs *simultaneously* without need for additional clarification or deep definition of the workflow. each stage simply awaits that all data it requires is made available before running. It puts it head and shoulders above the likes of C++ **MCU** programs that rely on single thread operations, crucial for large and complex control and data visualization systems.
 
-## 2. KEFIRE SOLENOID VALVE CONTROL
+## 2. SOLENOID VALVE CONTROL
 
 <img width="1919" height="1034" alt="Screenshot 2026-04-07 091635" src="https://github.com/user-attachments/assets/22519f8d-e72e-4cce-9aef-9d52263f4c68" />
 
